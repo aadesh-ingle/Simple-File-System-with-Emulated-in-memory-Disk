@@ -1,0 +1,9 @@
+# Provided makefile because my code uses function like ceil(), floor()
+# hence require -lm while compiling
+# The compilation using makefile requires presence of main.c in the directory
+# The commands for compile and execute are as follows
+    1.	make 			// this will compile the code and produce "a" as executable file
+    2.	./a			//this will run the code
+    3.	make clean		//will clean .o files in directory
+
+#Remove directory will remove all the subdirectories and files that the given directory contains
